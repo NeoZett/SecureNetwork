@@ -9,5 +9,5 @@ VERSION 1.0.0
 BY Neo Zetterberg (From sweden)
 """
 
-from .authenticator import SERVER, CLIENT
+from .authenticator import SERVER, CLIENT, AuthSocket
 from .network import SecureMessage, simple_socket, Server, Client, generate_key, generate_hmac_key

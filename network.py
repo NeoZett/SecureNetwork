@@ -223,7 +223,7 @@ class EventType(Enum):
     CONNECTION_SUCCESS = META("Connection success", "Someone has successfully connected")
     CONNECTED = META("Connected", "The client or server has connected / Started communicating")
     DISCONNECTED = META("Disconnected", "A client or server has disconnected")
-    RECIEVED = META("Recieved", "Recieved data from another device")
+    RECIEVED = META("Recieved", "Recieved data from a device")
     THREAD_WARNING = META("Thread warning", "A thread did not behave as expected")
     ERROR = META("Error", "A error has occured somewhere - self explainatory")
 

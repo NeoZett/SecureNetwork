@@ -375,7 +375,7 @@ class CLIENT(Client):
             self.send(logout_data)
             print(f"🔴 Logged out: {self.username}")
 
-Authenticator: Union[Server, Client] = Union[SERVER, CLIENT]
+AuthSocket: Union[Server, Client] = Union[SERVER, CLIENT]
 
 # Cleanup
 del ReadOnlyBuffer, WriteableBuffer, ReadableBuffer, _Address, _RetAddress
