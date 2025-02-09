@@ -1,5 +1,5 @@
 """
-NET.PY - A simple way to authorize and share internet connections.
+Secure Network - A simple way to authorize and share internet connections.
 
 Ever wanted a easy, secure, and efficient way to share data between 
 one device and the other? Well, now you can! In fact, it's super 
